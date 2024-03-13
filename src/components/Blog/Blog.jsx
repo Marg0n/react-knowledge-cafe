@@ -12,8 +12,8 @@ const Blog = ({ blog }) => {
   } = blog;
 
   return (
-    <div className="mt-4">
-      <img src={cover} alt={`cover picture of title ${title}`} />
+    <div className="my-10">
+      <img className="w-full h-96 rounded-xl" src={cover} alt={`cover picture of title ${title}`} />
       <div className="flex justify-between my-4">
         <div className="flex gap-4">
           <img
