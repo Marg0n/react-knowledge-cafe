@@ -8,7 +8,7 @@ const Bookmarks = ({bookmarks}) => {
   
         
   return (
-    <div className="md:w-1/3 rounded-xl my-4 p-4">
+    <div className="md:w-1/3 rounded-xl my-4 p-4 bg-slate-700 rounded-xl text-slate-100">
       <h2 className='text-xl text-center font-bold'>Bookmarked Blogs: {bookmarks.length}</h2>
       {
         bookmarks.map(
