@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
+import { BsBookmark } from "react-icons/bs";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark }) => {
   const {
     title,
     cover,
@@ -13,7 +14,11 @@ const Blog = ({ blog }) => {
 
   return (
     <div className="my-10">
-      <img className="w-full h-96 rounded-xl" src={cover} alt={`cover picture of title ${title}`} />
+      <img
+        className="w-full h-96 rounded-xl"
+        src={cover}
+        alt={`cover picture of title ${title}`}
+      />
       <div className="flex justify-between my-4">
         <div className="flex gap-4">
           <img
@@ -26,8 +31,11 @@ const Blog = ({ blog }) => {
             <p>{posted_date}</p>
           </div>
         </div>
-        <div>
-          <span>{reading_time} min read</span>
+        <div className="flex gap-2 items-center">
+          <p>{reading_time} min read</p>
+          <button onClick={handleAddToBookmark}>
+            <BsBookmark />
+          </button>
         </div>
       </div>
       <h2 className="text-4xl">{title}</h2>
