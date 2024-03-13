@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/fqsKTBh/1.jpg",
+    "title": "The Enigma of Nebula",
+    "author": "Astrid Starling",
+    "author_img": "https://i.ibb.co/s29kM6s/boy1.jpg",
+    "posted_date": "2024-03-13",
+    "reading_time": 45,
+    "hashtags": ["sciencefiction", "mystery", "adventure"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/MnSHDqf/2.jpg",
+    "title": "Whispers in the Mist",
+    "author": "Evelyn Moonshadow",
+    "author_img": "https://i.ibb.co/QX7HD0B/boy2.jpg",
+    "posted_date": "2024-03-14",
+    "reading_time": 30,
+    "hashtags": ["fantasy", "magic", "romance"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/YTYXyYV/3.jpg",
+    "title": "Chronicles of the Quantum Realm",
+    "author": "Maxwell Quantum",
+    "author_img": "https://i.ibb.co/YPDyCbG/girl1.jpg",
+    "posted_date": "2024-03-15",
+    "reading_time": 60,
+    "hashtags": ["sciencefiction", "time travel", "intrigue"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/G54Xqq4/4.jpg",
+    "title": "Midnight Serenade",
+    "author": "Luna Nightshade",
+    "author_img": "https://i.ibb.co/QQDLYRg/girl2.jpg",
+    "posted_date": "2024-03-16",
+    "reading_time": 40,
+    "hashtags": ["mystery", "noir", "music"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/LrzBWdM/5.jpg",
+    "title": "Garden of Whimsy",
+    "author": "Felicity Bloom",
+    "author_img": "https://i.ibb.co/Yf9qnxb/girl3.jpg",
+    "posted_date": "2024-03-17",
+    "reading_time": 20,
+    "hashtags": ["fantasy", "nature", "magic"]
+  }
+]
