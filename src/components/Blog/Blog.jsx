@@ -3,6 +3,7 @@ import { BsBookmark } from "react-icons/bs";
 
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   const {
+    id,
     title,
     cover,
     reading_time,
@@ -33,7 +34,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
         </div>
         <div className="flex gap-2 items-center">
           <p>{reading_time} min read</p>
-          <button onClick={() => handleAddToBookmark(blog)}>
+          <button onClick={() => handleAddToBookmark(id, blog)}>
             <BsBookmark />
           </button>
         </div>
@@ -48,7 +49,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
       </p>
       <button 
       className="text-purple-400 underline underline-offset-3"
-      onClick={() => handleMarkAsRead(reading_time)}
+      onClick={() => handleMarkAsRead(id, reading_time)}
       >
         Mark As Read
       </button>
